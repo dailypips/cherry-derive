@@ -1,0 +1,13 @@
+[package]
+name = "cherry-derive"
+version = "0.1.0"
+authors = ["Xiaojun Gao <gaoxiaojun@gmail.com>"]
+
+[dependencies]
+syn = { version = "0.12", features = ["full"] }
+#proc-macro2 = { version = "0.2", features = ["nightly"] }
+quote = "0.4"
+
+[lib]
+proc-macro = true
+doctest = false
